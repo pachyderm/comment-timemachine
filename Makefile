@@ -1,7 +1,8 @@
 one-time-setup: docker loop
 
 initialize-submodules:
-
+	git submodule init
+	git submodule update --init
 
 docker:
 	cd pipelines/metrics && make

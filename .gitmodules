@@ -1,3 +1,6 @@
 [submodule "talk"]
 	path = talk
 	url = git@github.com:sjezewski/talk.git
+[submodule "proxy"]
+	path = proxy
+	url = git@github.com:gabrielgrant/grpc-bus-websocket-proxy-server
