@@ -1,5 +1,8 @@
 one-time-setup: docker loop
 
+initialize-submodules:
+
+
 docker:
 	cd pipelines/metrics && make
 
