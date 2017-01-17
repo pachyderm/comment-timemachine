@@ -4,3 +4,6 @@
 [submodule "proxy"]
 	path = proxy
 	url = git@github.com:gabrielgrant/grpc-bus-websocket-proxy-server
+[submodule "proxy-client"]
+	path = proxy-client
+	url = git@github.com:gabrielgrant/grpc-bus-websocket-proxy-client.git
