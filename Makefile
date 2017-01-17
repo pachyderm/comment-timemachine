@@ -1,6 +1,6 @@
 TALK_SESSION_SECRET=abbbcadabraeeeeeeeee
 
-one-time-setup: docker input-data
+one-time-setup: input-data initialize-submodules
 
 initialize-submodules:
 	git submodule init
@@ -23,7 +23,7 @@ input-data:
 	done;
 	pachctl create-pipeline -f pipelines/pipeline.json
 
-run: initialize-submodules
+run:
 	# Check that pachyderm is running and we can connect
 	which pachctl
 	pachctl version
