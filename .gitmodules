@@ -1,0 +1,3 @@
+[submodule "talk"]
+	path = talk
+	url = git@github.com:sjezewski/talk.git
